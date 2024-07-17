@@ -1,0 +1,102 @@
+[
+	{
+		"flag": "Argentina", 
+		"image": "Images/Easy/argentina.webp", 
+		"options": [
+    				"Lebanon",
+    				"Argentina",
+    				"France",
+    				"Japan"
+				]
+	},
+	{
+		"flag": "Saudi Arabia", 
+		"image": "Images/Easy/saudi.webp", 
+		"options": [
+    				"Brazil",
+    				"United Kingdom",
+    				"India",
+   					"Saudi Arabia"
+				]
+	},
+	{
+		"flag": "Switzerland", 
+		"image": "Images/Easy/switzerland.webp", 
+		"options": [
+    				"Switzerland",
+    				"Argentina",
+    				"France",
+   					 "Japan"
+				]
+	},
+	{
+		"flag": "Portugal", 
+		"image": "Images/Easy/portugal.webp", 
+		"options": [
+    				"Germany",
+    				"Italy",
+    				"Portugal",
+    				"Australia"
+				]
+	},
+	{
+		"flag": "Turkey", 
+		"image": "Images/Easy/turkey.webp", 
+		"options": [
+    				"Mexico",
+    				"South Korea",
+    				"Spain",
+    				"Turkey"
+				]
+	},
+	{
+		"flag": "Chile", 
+		"image": "Images/Easy/chile.webp", 
+		"options": [
+    				"Russia",
+    				"Sweden",
+    				"Argentina",
+    				"Chile"
+				]
+	},
+	{
+		"flag": "France", 
+		"image": "Images/Easy/france.webp", 
+		"options": [
+    				"France",
+    				"Netherlands",
+    				"Greece",
+    				"Egypt"
+				]
+	},
+	{
+		"flag": "Mexico", 
+		"image": "Images/Easy/mexico.webp", 
+		"options": [
+    				"Poland",
+    				"Mexico",
+    				"Norway",
+    				"Indonesia"
+				]
+	},
+	{
+		"flag": "India", 
+		"image": "Images/Easy/india.webp", 
+		"options": [
+    				"Austria",
+    				"India",
+    				"Hungary",
+    				"Finland"
+				]
+	},
+	{
+		"flag": "Brazil", 
+		"image": "Images/Easy/brazil.webp", 
+		"options": [
+    				"Vietnam",
+    				"Singapore",
+    				"Colombia",
+    				"Brazil"
+				]
+	}
+]

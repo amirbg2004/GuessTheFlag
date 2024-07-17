@@ -1,0 +1,152 @@
+[
+	{
+		"flag": "Fiji", 
+		"image": "Images/Hard/fiji.webp", 
+		"options": [
+    				"Fiji",
+    				"Australia",
+    				"Tuvalu",
+    				"Saint Vincent and the Grenadines"
+			]
+	},
+	{
+		"flag": "Angola", 
+		"image": "Images/Hard/angola.webp", 
+		"options": [
+    				"Angola",
+    				"Brazil",
+    				"Benin",
+    				"Republic of Congo"
+				]
+	},
+	{
+		"flag": "Sri Lanka", 
+		"image": "Images/Hard/sri-lanka.webp", 
+		"options": [
+    				"Malaysia",
+    				"Nepal",
+    				"Maldives",
+    				"Sri Lanka"
+				]
+	},
+	{
+		"flag": "Vatican City", 
+		"image": "Images/Hard/vatican.webp", 
+		"options": [
+    				"Vatican City",
+    				"Greece",
+    				"Bosnia and Herzegovina",
+    				"Croatia"
+				]
+	},
+	{
+		"flag": "Nicaragua", 
+		"image": "Images/Hard/nicaragua.png", 
+		"options": [
+    				"Guatemala",
+    				"El Salvador",
+    				"Nicaragua",
+    				"Costa Rica"
+				]
+	},
+	{
+		"flag": "Cambodia", 
+		"image": "Images/Hard/cambodia.webp", 
+		"options": [
+    				"Armenia",
+    				"Cambodia",
+    				"Bhutan",
+    				"Belarus"
+				]
+	},
+	{
+		"flag": "Papua New Guinea", 
+		"image": "Images/Hard/papua-new-guinea.webp", 
+		"options": [
+    				"Republic of the Congo",
+    				"Solomon Islands",
+    				"Papua New Guinea",
+    				"Tonga"
+				]
+	},
+	{
+		"flag": "Zimbabwe", 
+		"image": "Images/Hard/zimbabwe.png", 
+		"options": [
+    				"Mozambique",
+    				"Malawi",
+    				"Namibia",
+    				"Zimbabwe"
+				]
+	},
+	{
+		"flag": "Montenegro", 
+		"image": "Images/Hard/montenegro.png", 
+		"options": [
+    				"Slovenia",
+    				"Croatia",
+    				"Albania",
+    				"Montenegro"
+				]
+	},
+	{
+		"flag": "Turkmenistan", 
+		"image": "Images/Hard/turkmenistan.png", 
+		"options": [
+    				"Turkey",
+    				"Cyprus",
+    				"Azerbaijan",
+    				"Turkmenistan"
+				]
+	},
+	{
+		"flag": "Afghanistan", 
+		"image": "Images/Hard/afghanistan.webp", 
+		"options": [
+    				"France",
+    				"Hungary",
+    				"Afghanistan",
+    				"Ireland"
+				]
+	},
+	{
+		"flag": "Burundi", 
+		"image": "Images/Hard/burundi.png", 
+		"options": [
+    				"Burundi",
+    				"Malaysia",
+    				"Singapore",
+    				"Tanzania"
+				]
+	},
+	{
+		"flag": "Ethiopia", 
+		"image": "Images/Hard/Ethiopia.webp", 
+		"options": [
+    				"Ghana",
+    				"Ethiopia",
+    				"Guinea",
+    				"Mozambique"
+				]
+	},
+	{
+		"flag": "Nepal", 
+		"image": "Images/Hard/nepal.webp", 
+		"options": [
+    				"Switzerland",
+    				"Vatican City",
+    				"Nepal",
+    				"Mozambique"
+				]
+	},
+	{
+		"flag": "Kenya", 
+		"image": "Images/Hard/kenya.webp", 
+		"options": [
+    				"Kenya",
+    				"Malta",
+    				"Zimbabwe",
+    				"Botswana"
+				]
+	}
+]

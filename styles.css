@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand, sans-serif;
+}
+
+body {
+  background-image: url("Images/countries.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(87, 165, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 18px;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+#made-by {
+  align-self: flex-start;
+}
+
+.centered {
+  font-size: 28px;
+  margin-top: 33px;
+  text-align: center;
+}
+
+p {
+  font-size: larger;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.difficulty,
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.difficulty > button {
+  background-color: #007bff;
+  font-size: 24px;
+  border: none;
+  color: #ffffff;
+  padding: 11px;
+  border-radius: 7px;
+  margin-top: 25px;
+  width: 600px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in;
+}
+
+.difficulty > button:hover {
+  background-color: #0056b3;
+}
+
+.difficulty > button:active {
+  opacity: 0.8;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.options button {
+  background-color: #007bff;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  padding: 11px;
+  border-radius: 7px;
+  margin-top: 18px;
+  width: 600px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in;
+}
+
+.options > button:hover {
+  background-color: #0056b3;
+}
+
+.options > button:active {
+  opacity: 0.8;
+}
+
+.time-left {
+  font-size: 22px;
+  margin-top: 12px;
+  color: darkblue;
+  text-align: center;
+}
+
+.next-button {
+  text-align: center;
+  width: 120px;
+  background-color: #007bff;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  padding: 11px;
+  border-radius: 7px;
+  margin-top: 18px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+.next-button:active {
+  opacity: 0.8;
+}
+
+.flag {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.flag-dimensions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  height: 200px;
+  width: 400px;
+}
+.remaining-time {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(183, 34, 34);
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.remaining-questions {
+  font-size: 16px;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+.options button.correct {
+  background-color: rgb(29, 152, 29);
+}
+
+.options button.wrong {
+  background-color: rgb(200, 13, 13);
+}

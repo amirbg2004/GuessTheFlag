@@ -1,0 +1,152 @@
+[
+	{
+		"flag": "Egypt", 
+		"image": "Images/medium/egypt.webp", 
+		"options": [
+    				"Malaysia",
+    				"New Zealand",
+    				"Poland",
+    				"Egypt"
+				]
+	},
+	{
+		"flag": "Japan", 
+		"image": "Images/medium/japan.png", 
+		"options": [
+    				"Japan",
+    				"Portugal",
+    				"Nigeria",
+    				"Bangladesh"
+				]
+	},
+	{
+		"flag": "Cuba", 
+		"image": "Images/medium/cuba.webp", 
+		"options": [
+    				"Chile",
+    				"Nepal",
+    				"Cuba",
+    				"Slovakia"
+				]
+	},
+	{
+		"flag": "Morocco", 
+		"image": "Images/medium/morocco.png", 
+		"options": [
+    				"Bolivia",
+    				"Mongolia",
+    				"Thailand",
+    				"Morocco"
+				]
+	},
+	{
+		"flag": "Vietnam", 
+		"image": "Images/medium/vietnam.png", 
+		"options": [
+    				"Libya",
+    				"Paraguay",
+    				"Vietnam",
+    				"Jamaica"
+				]
+	},
+	{
+		"flag": "Ukraine", 
+		"image": "Images/medium/ukraine.png", 
+		"options": [
+    				"Laos",
+    				"Georgia",
+    				"Uruguay",
+    				"Ukraine"
+				]
+	},
+	{
+		"flag": "Ireland", 
+		"image": "Images/medium/ireland.webp", 
+		"options": [
+    				"Lebanon",
+    				"Argentina",
+    				"Ireland",
+    				"Japan"
+				]
+	},
+	{
+		"flag": "Pakistan", 
+		"image": "Images/medium/pakistan.png", 
+		"options": [
+    				"Malta",
+    				"Latvia",
+    				"Pakistan",
+    				"Armenia"
+				]
+	},
+	{
+		"flag": "Sweden", 
+		"image": "Images/medium/sweden.webp", 
+		"options": [
+    				"Sweden",
+    				"Morocco",
+    				"Bahrain",
+    				"Ecuador"
+				]
+	},
+	{
+		"flag": "Belgium", 
+		"image": "Images/medium/belgium.webp", 
+		"options": [
+    				"Belgium",
+    				"Azerbaijan",
+    				"Trinidad and Tobago",
+    				"Ghana"
+				]
+	},
+	{
+		"flag": "Nigeria", 
+		"image": "Images/medium/nigeria.png", 
+		"options": [
+    				"Belize",
+    				"Gabon",
+    				"Nigeria",
+    				"Bhutan"
+				]
+	},
+	{
+		"flag": "Colombia", 
+		"image": "Images/medium/colombia.webp", 
+		"options": [
+    				"Lebanon",
+    				"Bostwana",
+    				"Colombia",
+    				"Sudan"
+				]
+	},
+	{
+		"flag": "Bangladesh", 
+		"image": "Images/medium/bangladesh.jpg", 
+		"options": [
+    				"Syria",
+    				"Bangladesh",
+    				"New Zealand",
+    				"Honduras"
+				]
+	},
+	{
+		"flag": "Lebanon", 
+		"image": "Images/medium/lebanon.webp", 
+		"options": [
+    				"Cape Verde",
+    				"Turks and Caicos Islands",
+    				"Aruba",
+    				"Lebanon"
+				]
+	},
+	{
+		"flag": "China", 
+		"image": "Images/medium/china.png", 
+		"options": [
+    				"China",
+    				"Vietnam",
+    				"El Salvador",
+    				"Namibia"
+				]
+	}
+]
