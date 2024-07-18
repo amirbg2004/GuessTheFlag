@@ -64,12 +64,22 @@ let fetchData = (difficulty) => {
     })
     .then((data) => {
       questions = data;
+      let questionsSize = questions.length;
+      shuffleQuestionsRandomly(questions, questionsSize);
       startGame(0);
     })
     .catch((error) => {
       console.error(error);
     });
 };
+
+function shuffleQuestionsRandomly(questions, size) {
+  for (let i = size - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [questions[i], questions[j]] = [questions[j], questions[i]];
+  }
+  return questions;
+}
 
 let startGame = (currentIndex) => {
   if (questions.length === 0) {
