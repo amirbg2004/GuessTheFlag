@@ -10,7 +10,6 @@ var numberOfQuestions = 0;
 let selected = true;
 
 let questions = [];
-var questionsIndex = 0;
 
 difficultyButtons.forEach((button) => {
   button.addEventListener("click", (event) => {
@@ -36,7 +35,7 @@ let startCountdown = (div) => {
     if (timeLeft <= 0) {
       clearInterval(startCountdown);
       div.textContent = "Your time is up ❗❗";
-      alert("Your time is up! Please refresh your page.");
+      endGameOnTime();
     }
   }, 1000);
 };
@@ -46,15 +45,12 @@ let fetchData = (difficulty) => {
   switch (difficulty) {
     case "easy":
       jsonURL = "easy.json";
-      numberOfQuestions = 10;
       break;
     case "medium":
       jsonURL = "medium.json";
-      numberOfQuestions = 15;
       break;
     case "hard":
       jsonURL = "hard.json";
-      numberOfQuestions = 15;
       break;
   }
   fetch(jsonURL)
@@ -64,8 +60,8 @@ let fetchData = (difficulty) => {
     })
     .then((data) => {
       questions = data;
-      let questionsSize = questions.length;
-      shuffleQuestionsRandomly(questions, questionsSize);
+      numberOfQuestions = questions.length;
+      shuffleQuestionsRandomly(questions, numberOfQuestions);
       startGame(0);
     })
     .catch((error) => {
@@ -114,8 +110,6 @@ let startGame = (currentIndex) => {
 
   for (let i = 0; i < optionButtons.length; i++)
     optionButtons[i].textContent = questions[currentIndex].options[i];
-
-  console.log(optionButtons);
 
   let timeLeftDiv = document.createElement("div");
   timeLeftDiv.classList.add("remaining-time");
@@ -189,7 +183,75 @@ let displayNextQuestion = (currentIndex, flagImage, optionButtons) => {
 
 let isCorrect = (answer, currentIndex) => answer === questions[currentIndex].flag;
 
+function showTimePopup() {
+  let popupContentDiv = document.querySelector(".popup-content");
+  let playAgainButton = document.createElement("button");
+  let scoreDisplay = document.getElementById("score-display");
+  let timeEndedParagraph = document.getElementById("time-ended");
+
+  timeEndedParagraph.textContent = "Your time has ended!";
+
+  scoreDisplay.innerHTML = `Score: ${score} / ${numberOfQuestions}`;
+
+  playAgainButton.id = "play-again";
+  playAgainButton.onclick = () => removePopup();
+  playAgainButton.textContent = "Play Again";
+  console.log(playAgainButton);
+
+  document.querySelector(".overlay").style.display = "block";
+  document.querySelector(".popup").style.display = "block";
+
+  popupContentDiv.appendChild(playAgainButton);
+
+  setInterval(() => {
+    addGlowEffect(playAgainButton);
+    setTimeout(removeGlowEffect(playAgainButton), 1000);
+  }, 1000);
+}
+
+function showEndPopup() {
+  let popupContentDiv = document.querySelector(".popup-content");
+  let playAgainButton = document.createElement("button");
+  let scoreDisplay = document.getElementById("score-display");
+  let timeEndedParagraph = document.getElementById("time-ended");
+
+  timeEndedParagraph.textContent = "Congratulations!";
+
+  scoreDisplay.innerHTML = `Score: ${score} / ${numberOfQuestions}`;
+
+  playAgainButton.id = "play-again";
+  playAgainButton.onclick = () => removePopup();
+  playAgainButton.textContent = "Play Again";
+  console.log(playAgainButton);
+
+  document.querySelector(".overlay").style.display = "block";
+  document.querySelector(".popup").style.display = "block";
+
+  popupContentDiv.appendChild(playAgainButton);
+
+  setInterval(() => {
+    playAgainButton.classList.add("glowing");
+    setTimeout(() => {
+      playAgainButton.classList.remove("glowing");
+    }, 3000);
+  }, 4000);
+}
+
+function removeGlowEffect(button) {
+  button.classList.remove("glowing");
+}
+
+function removePopup() {
+  document.querySelector(".overlay").style.display = "none";
+  document.querySelector(".popup").style.display = "none";
+  location.reload();
+}
+let endGameOnTime = () => {
+  clearInterval(startCountdown);
+  showTimePopup();
+};
+
 let endGame = () => {
-  alert(`You finished on time and scored ${score} / ${numberOfQuestions}`);
-  window.reload();
+  clearInterval(startCountdown);
+  showEndPopup();
 };
