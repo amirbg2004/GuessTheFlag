@@ -1,7 +1,7 @@
 [
 	{
 		"flag": "Egypt", 
-		"image": "Images/medium/egypt.webp", 
+		"image": "Images/Medium/egypt.webp", 
 		"options": [
     				"Malaysia",
     				"New Zealand",
@@ -11,7 +11,7 @@
 	},
 	{
 		"flag": "Japan", 
-		"image": "Images/medium/japan.png", 
+		"image": "Images/Medium/japan.png", 
 		"options": [
     				"Japan",
     				"Portugal",
@@ -21,7 +21,7 @@
 	},
 	{
 		"flag": "Cuba", 
-		"image": "Images/medium/cuba.webp", 
+		"image": "Images/Medium/cuba.webp", 
 		"options": [
     				"Chile",
     				"Nepal",
@@ -31,7 +31,7 @@
 	},
 	{
 		"flag": "Morocco", 
-		"image": "Images/medium/morocco.png", 
+		"image": "Images/Medium/morocco.png", 
 		"options": [
     				"Bolivia",
     				"Mongolia",
@@ -41,7 +41,7 @@
 	},
 	{
 		"flag": "Vietnam", 
-		"image": "Images/medium/vietnam.png", 
+		"image": "Images/Medium/vietnam.png", 
 		"options": [
     				"Libya",
     				"Paraguay",
@@ -51,7 +51,7 @@
 	},
 	{
 		"flag": "Ukraine", 
-		"image": "Images/medium/ukraine.png", 
+		"image": "Images/Medium/ukraine.png", 
 		"options": [
     				"Laos",
     				"Georgia",
@@ -61,7 +61,7 @@
 	},
 	{
 		"flag": "Ireland", 
-		"image": "Images/medium/ireland.webp", 
+		"image": "Images/Medium/ireland.webp", 
 		"options": [
     				"Lebanon",
     				"Argentina",
@@ -71,7 +71,7 @@
 	},
 	{
 		"flag": "Pakistan", 
-		"image": "Images/medium/pakistan.png", 
+		"image": "Images/Medium/pakistan.png", 
 		"options": [
     				"Malta",
     				"Latvia",
@@ -81,7 +81,7 @@
 	},
 	{
 		"flag": "Sweden", 
-		"image": "Images/medium/sweden.webp", 
+		"image": "Images/Medium/sweden.webp", 
 		"options": [
     				"Sweden",
     				"Morocco",
@@ -91,7 +91,7 @@
 	},
 	{
 		"flag": "Belgium", 
-		"image": "Images/medium/belgium.webp", 
+		"image": "Images/Medium/belgium.webp", 
 		"options": [
     				"Belgium",
     				"Azerbaijan",
@@ -101,7 +101,7 @@
 	},
 	{
 		"flag": "Nigeria", 
-		"image": "Images/medium/nigeria.png", 
+		"image": "Images/Medium/nigeria.png", 
 		"options": [
     				"Belize",
     				"Gabon",
@@ -111,7 +111,7 @@
 	},
 	{
 		"flag": "Colombia", 
-		"image": "Images/medium/colombia.webp", 
+		"image": "Images/Medium/colombia.webp", 
 		"options": [
     				"Lebanon",
     				"Bostwana",
@@ -121,7 +121,7 @@
 	},
 	{
 		"flag": "Bangladesh", 
-		"image": "Images/medium/bangladesh.jpg", 
+		"image": "Images/Medium/bangladesh.jpg", 
 		"options": [
     				"Syria",
     				"Bangladesh",
@@ -131,7 +131,7 @@
 	},
 	{
 		"flag": "Lebanon", 
-		"image": "Images/medium/lebanon.webp", 
+		"image": "Images/Medium/lebanon.webp", 
 		"options": [
     				"Cape Verde",
     				"Turks and Caicos Islands",
@@ -141,7 +141,7 @@
 	},
 	{
 		"flag": "China", 
-		"image": "Images/medium/china.png", 
+		"image": "Images/Medium/china.png", 
 		"options": [
     				"China",
     				"Vietnam",
